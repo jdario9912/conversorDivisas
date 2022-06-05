@@ -26,6 +26,6 @@ public class Menu extends JFrame implements ItemListener{
 
 	@Override
 	public void itemStateChanged(ItemEvent e) {
-		
+//		ACA VAN LOS EVENTOS DE LOS ITEMS
 	}
 }
