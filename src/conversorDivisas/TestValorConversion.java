@@ -1,9 +1,9 @@
 package conversorDivisas;
 
-public class TestMenu {
+public class TestValorConversion {
 
 	public static void main(String[] args) {
-		new Menu();
+		new ValorConversion(12450, "Euros");
 	}
 
 }

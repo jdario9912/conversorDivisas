@@ -1,9 +1,9 @@
 package conversorDivisas;
 
-public class TestMenu {
+public class TestEleccionNotacion {
 
 	public static void main(String[] args) {
-		new Menu();
+		new EleccionNotacion();
 	}
 
 }

@@ -1,9 +1,9 @@
 package conversorDivisas;
 
-public class TestMenu {
+public class TestMensajeValorIncorrecto {
 
 	public static void main(String[] args) {
-		new Menu();
+		new MensajeValorIncorrecto();
 	}
 
 }
