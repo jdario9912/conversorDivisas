@@ -1,9 +1,8 @@
 package conversorDivisas;
 
-public class TestEleccionNotacion {
+public class TestAcordeResultante {
 
 	public static void main(String[] args) {
-		new EleccionNotacion();
+		new NotacionResultante("Fa");
 	}
-
 }

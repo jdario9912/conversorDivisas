@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Continuar {
 	public Continuar() {
-		int respuesta = JOptionPane.showConfirmDialog(null,"¿Desea continuar?");
+		int respuesta = JOptionPane.showConfirmDialog(null,"¿Hacer otra conversion?");
 		System.out.println(respuesta);
 	}
 }

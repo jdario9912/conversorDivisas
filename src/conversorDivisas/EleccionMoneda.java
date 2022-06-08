@@ -3,8 +3,11 @@ package conversorDivisas;
 import javax.swing.JOptionPane;
 
 public class EleccionMoneda{
+	
+	private Object moneda;
+	
 	public EleccionMoneda() {
-		Object moneda = JOptionPane.showInputDialog(null,"Elija la moneda a la que desea convertir el dinero",
+		moneda = JOptionPane.showInputDialog(null,"Elija la moneda a la que desea convertir el dinero",
 				   "Moneda", JOptionPane.QUESTION_MESSAGE, null,
 				  new Object[] { 
 						  		 "De Peso a Dolar",
@@ -18,6 +21,9 @@ public class EleccionMoneda{
 						         "De Yen japonés a Peso",
 						         "De Won sul-coreano a Peso"
 						       },"");
-		System.out.println(moneda);
+	}
+	
+	public Object getMoneda() {
+		return this.moneda;
 	}
 }
